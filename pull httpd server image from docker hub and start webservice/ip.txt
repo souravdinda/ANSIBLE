@@ -1,0 +1,4 @@
+[web]
+13.232.189.2  ansible_user=root ansible_ssh_pass=sourav ansible_connection=ssh
+3.6.41.77  ansible_user=root ansible_ssh_pass=sourav  ansible_connection=ssh
+
