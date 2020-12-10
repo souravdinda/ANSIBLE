@@ -1,0 +1,7 @@
+🔰𝐓𝐚𝐬𝐤-𝟏𝟏.𝟏 𝐇𝐚𝐝𝐨𝐨𝐩 𝐂𝐥𝐮𝐬𝐭𝐞𝐫 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐔𝐬𝐢𝐧𝐠 𝐀𝐧𝐬𝐢𝐛𝐥𝐞🔰
+
+🔹Hadoop is a tool based on concept 𝐃𝐢𝐬𝐭𝐫𝐢𝐛𝐮𝐭𝐞𝐝 𝐒𝐭𝐨𝐫𝐚𝐠𝐞 used in BIG DATA Domain and Ansible is the Automation tool works on Declarative Language Concept used for Configuration Management Purpose in IT Sector!!
+
+This Article is about Integration of Hadoop with Ansible!! . Ansible configured namenode and all datanode in a single click . Check Out the Code Link for Complete Understanding.
+
+⏩Article 𝑳𝒊𝒏𝒌 : https://lnkd.in/eiYV-hU
