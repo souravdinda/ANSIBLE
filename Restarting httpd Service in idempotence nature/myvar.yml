@@ -1,0 +1,3 @@
+doc_root: "/var/www/sourav"
+httpd_port: 8099
+
