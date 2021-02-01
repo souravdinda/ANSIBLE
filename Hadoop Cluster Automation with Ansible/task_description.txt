@@ -5,3 +5,5 @@
 This Article is about Integration of Hadoop with Ansible!! . Ansible configured namenode and all datanode in a single click . Check Out the Code Link for Complete Understanding.
 
 ⏩Article 𝑳𝒊𝒏𝒌 : https://lnkd.in/eiYV-hU
+
+thanks to vimal daga sir
