@@ -8,3 +8,5 @@ Write a playbook that does the following operations in the managed nodes.
 👉pull httpd server image and expose it to public.
 👉copy file in /var/www/html and start webserver .
 
+
+THANKS ....................
