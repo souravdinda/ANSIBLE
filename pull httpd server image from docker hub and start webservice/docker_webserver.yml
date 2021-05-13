@@ -1,15 +1,20 @@
-- hosts: web
+- hosts: localhost
   tasks:
   - name: Creation of yum repo in cloud
     yum_repository:
-      name: "docker repo"
+      name: "docker"
       baseurl: https://download.docker.com/linux/centos/7/x86_64/stable/
       description : My docker repo
       gpgcheck: 0
-  - name: Installation of docker in managed node
+
+  - name: Installing Docker package
     package:
-      name: "docker-ce-18.09.1-3.el7.x86_64"
+      name:
+      - "docker-ce-18.09.1-3.el7.x86_64"
       state: present
+
+
+
   - name: Starting docker  and enable
     service:
       name: "docker"
@@ -30,7 +35,7 @@
 
   - name: Copy html file form controller node to managed node
     copy:
-      src: "index.html"
+      src: "index2.html"
       dest: "/mypage/"
   - name: Creation of HTTPD container
     docker_container:
@@ -39,3 +44,4 @@
       state: started
       exposed_ports: "80"
       ports: "1234:80"
+      volumes: "/mypage:/usr/local/apache2/htdocs/"
